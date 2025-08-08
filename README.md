@@ -11,7 +11,7 @@ A Python script that downloads React application source code exposed in browser 
 
 1. **Clone or download the script**:
    ```bash
-   curl -O https://raw.githubusercontent.com/your-repo/react-source-downloader/main/react_downloader.py
+   curl -O https://raw.githubusercontent.com/your-repo/react-source-downloader/main/rsdown.py
    ```
 
 2. **Install dependencies**:
@@ -21,7 +21,7 @@ A Python script that downloads React application source code exposed in browser 
 
 3. **Make the script executable** (optional):
    ```bash
-   chmod +x react_downloader.py
+   chmod +x rsdown.py
    ```
 
 ## 💻 Usage
@@ -29,29 +29,29 @@ A Python script that downloads React application source code exposed in browser 
 ### Basic Usage
 
 ```bash
-python react_downloader.py <URL>
+python rsdown.py <URL>
 ```
 
 ### With Custom Output Directory
 
 ```bash
-python react_downloader.py <URL> -d <directory_name>
+python rsdown.py <URL> -d <directory_name>
 ```
 
 ### Examples
 
 ```bash
 # Download from a live React app
-python react_downloader.py https://example.com
+python rsdown.py https://example.com
 
 # Download from local development server
-python react_downloader.py http://localhost:3000
+python rsdown.py http://localhost:3000
 
 # Save to custom directory
-python react_downloader.py https://example.com -d my_react_project
+python rsdown.py https://example.com -d my_react_project
 
 # Download from staging environment
-python react_downloader.py https://staging.example.com -d staging_source
+python rsdown.py https://staging.example.com -d staging_source
 ```
 
 ## 🛠️ How It Works
